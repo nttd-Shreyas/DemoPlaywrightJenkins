@@ -1,0 +1,37 @@
+[
+  {
+    "code": 200,
+    "type": "unknown",
+    "message": "9223372036854757768",
+    "username": "Shubham85",
+    "firstName": "Harry",
+    "lastName": "Kapur",
+    "email": "Shubham85@test.com",
+    "password": "123456",
+    "phone": "9876542100",
+    "userStatus": 0,
+    "id": 0
+  },
+  {
+    "username": "Harry67",
+    "firstName": "Harry",
+    "lastName": "Johnson",
+    "email": "Harry67@test.com",
+    "password": "123456",
+    "phone": "9876542100",
+    "userStatus": 0,
+    "code": 200,
+    "type": "unknown",
+    "message": "9223372036854757858",
+    "id": 0
+  },
+  {
+    "username": "Harry92",
+    "firstName": "Shubham",
+    "lastName": "Johnson",
+    "email": "Harry92@test.com",
+    "password": "123456",
+    "phone": "1234567890",
+    "userStatus": 0
+  }
+]
