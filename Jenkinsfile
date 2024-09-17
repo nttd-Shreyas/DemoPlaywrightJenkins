@@ -1,12 +1,10 @@
 pipeline {
    agent any
-//    environment {
-//        NODE_HOME = "C:\\Program Files (x86)\\nodejs"
-//        PATH = "${env.NODE_HOME}\\;${env.PATH}"
-//    }
-    tools {
-        nodejs "NodeJS"
-    }
+   environment {
+    //    NODE_HOME = "C:\\Program Files (x86)\\nodejs"
+    //    PATH = "${env.NODE_HOME}\\;${env.PATH}"
+       PATH = "C:\\Program Files (x86)\\nodejs\\;${env.PATH}"
+   }
    stages {
        stage('Checkout') {
            steps {
