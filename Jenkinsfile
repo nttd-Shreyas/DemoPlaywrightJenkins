@@ -1,7 +1,7 @@
 pipeline {
    agent any
    environment {
-       NODE_HOME = 'C:\\Program Files (x86)\\nodejs'
+       NODE_HOME = "C:\\Program Files (x86)\\nodejs"
        PATH = "${env.NODE_HOME}\\;${env.PATH}"
    }
    stages {
@@ -24,7 +24,7 @@ pipeline {
            steps {
                script {
                    // Run Playwright tests
-                   bat 'npm test'
+                   bat 'npx playwright test'
                }
            }
        }
